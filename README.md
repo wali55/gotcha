@@ -1,6 +1,6 @@
 ## Project Description:
 
-Welcome to our landing page builder project! We are inviting developers to collaborate with us on this exciting project to help people save time and money while creating their internet presence. Our landing page builder project aims to solve the problem of users who lose a lot of time creating their landing page or paying a lot of money for someone else to do it.
+Welcome to our landing page template project! We are inviting developers to collaborate with us on this exciting project to help people save time and money while creating their internet presence. Our landing page builder project aims to solve the problem of users who lose a lot of time creating their landing page or paying a lot of money for someone else to do it.
 
 Long story short: we gonna create a landing page that sells.
 
