@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from './components/Button';
+import { AiFillCaretRight, AiOutlineArrowRight, AiOutlineRetweet, AiOutlineMinusCircle, AiFillRest } from "react-icons/ai";
+
+const handleClick = () => {
+  console.log('primary button clicked');
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <Button primary onClick={handleClick}>
+          Sign Up
+          <AiFillCaretRight className="text-lg ml-1.5" />
+        </Button>
+      </div>
+      <div>
+        <Button secondary outline>
+          Learn More
+          <AiOutlineArrowRight className="ml-1.5" />
+        </Button>
+      </div>
+      <div>
+        <Button className="my-4" success>
+          Updated
+          <AiOutlineRetweet className="text-lg ml-1.5" />
+        </Button>
+      </div>
+      <div>
+        <Button warning rounded>
+          Remove
+          <AiOutlineMinusCircle className="text-lg ml-1.5" />
+        </Button>
+      </div>
+      <div>
+        <Button className="mt-4" danger rounded outline>
+          Delete
+          <AiFillRest className="text-lg ml-1.5" />
+        </Button>
+      </div>
     </div>
   );
 }
