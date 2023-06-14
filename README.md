@@ -14,4 +14,6 @@ We look forward to collaborating with you on this project and making it a succes
 
 ## How to Start
 
-Please read the [Description](https://github.com/tonic-6101/gotcha/wiki/Description).
+Please read the [Description](https://github.com/tonic-6101/gotcha/wiki/description).
+
+## Why you should collaborate on this project
